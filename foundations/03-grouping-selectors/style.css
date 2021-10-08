@@ -1,0 +1,14 @@
+#uno,
+#dos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+
+#uno {
+  background-color: black;
+  color: white;
+}
+
+#dos {
+  background-color: yellow;
+}
