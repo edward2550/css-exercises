@@ -1,27 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: ghostwhite;
+}
+.left-links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  list-style: none;
+}
+
+.right-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  list-style: none;
+}
 
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 600px;
 }
 
 button {
   font-family: Roboto, sans-serif;
+  padding: 10px;
   border: none;
   border-radius: 8px;
   background: #eee;
 }
 
 input {
+  display: flex;
+  align-content: flex-end;
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.ul {
+  list-style: none;
+}
+
+a:link,
+a:visited {
+  color: rosybrown;
+  text-decoration: none;
 }
